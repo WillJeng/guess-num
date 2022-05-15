@@ -1,6 +1,10 @@
 import random
+start = input("請輸入你要的起始值:")
+end = input("請輸入你要的最終值")
+start = int(start)
+end = int(end)
 count = 0
-r = random.randint(1, 100)
+r = random.randint(start, end)
 while True:
 	count = count + 1 #i += 1 
 	num = input("請輸入1到100的終極數字:")
